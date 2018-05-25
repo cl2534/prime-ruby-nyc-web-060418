@@ -1,4 +1,4 @@
 # Add  code here!
 def prime?(int)
-  array = int.to_a 
+  range = (2..int-1).to_a 
   

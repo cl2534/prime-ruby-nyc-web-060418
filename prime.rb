@@ -10,4 +10,10 @@ def prime?(int)
   return true
 end 
   
-  
+  for i in new_array do
++		if num % i == 0
++			return false
++		end	
++	end
++	return true
++end 

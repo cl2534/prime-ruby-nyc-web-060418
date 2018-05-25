@@ -1,6 +1,7 @@
 # Add  code here!
 def prime?(int)
-  range = (2..int-1).to_a 
+  sqr = (int ** 0.5).to_i 
+  range = (2..sqr).to_a 
   return false if int <= 1 
   range.each do |i|
     if num % i == 0 
